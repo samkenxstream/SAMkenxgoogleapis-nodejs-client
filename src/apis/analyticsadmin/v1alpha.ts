@@ -1009,7 +1009,7 @@ export namespace analyticsadmin_v1alpha {
      */
     displayName?: string | null;
     /**
-     * Output only. Resource name of this secret. This secret may be a child of any type of stream. Format: properties/{property\}/webDataStreams/{webDataStream\}/measurementProtocolSecrets/{measurementProtocolSecret\}
+     * Output only. Resource name of this secret. This secret may be a child of any type of stream. Format: properties/{property\}/dataStreams/{dataStream\}/measurementProtocolSecrets/{measurementProtocolSecret\}
      */
     name?: string | null;
     /**
@@ -9483,7 +9483,7 @@ export namespace analyticsadmin_v1alpha {
      *   const res =
      *     await analyticsadmin.properties.dataStreams.measurementProtocolSecrets.patch(
      *       {
-     *         // Output only. Resource name of this secret. This secret may be a child of any type of stream. Format: properties/{property\}/webDataStreams/{webDataStream\}/measurementProtocolSecrets/{measurementProtocolSecret\}
+     *         // Output only. Resource name of this secret. This secret may be a child of any type of stream. Format: properties/{property\}/dataStreams/{dataStream\}/measurementProtocolSecrets/{measurementProtocolSecret\}
      *         name: 'properties/my-propertie/dataStreams/my-dataStream/measurementProtocolSecrets/my-measurementProtocolSecret',
      *         // The list of fields to be updated. Omitted fields will not be updated.
      *         updateMask: 'placeholder-value',
@@ -9653,7 +9653,7 @@ export namespace analyticsadmin_v1alpha {
   export interface Params$Resource$Properties$Datastreams$Measurementprotocolsecrets$Patch
     extends StandardParameters {
     /**
-     * Output only. Resource name of this secret. This secret may be a child of any type of stream. Format: properties/{property\}/webDataStreams/{webDataStream\}/measurementProtocolSecrets/{measurementProtocolSecret\}
+     * Output only. Resource name of this secret. This secret may be a child of any type of stream. Format: properties/{property\}/dataStreams/{dataStream\}/measurementProtocolSecrets/{measurementProtocolSecret\}
      */
     name?: string;
     /**
